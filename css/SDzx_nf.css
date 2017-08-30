@@ -1,0 +1,75 @@
+/*nav*/
+body{
+	background:#161E46;
+}
+.nav{
+	width:100%;
+	height:85px;
+	background:url("../img_sdzx/nav.png") no-repeat top center;
+	position:fixed;
+	top:0px;
+	right:0px;
+	z-index:8;
+}
+.nav ul{
+	margin:14px auto;
+	width:820px;
+}
+.nav ul li{
+	float: left;
+    background: url("../img_sdzx/btn.png") no-repeat center;
+    width: 161px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 18px;
+}
+.nav ul li:hover{
+	 background: url("../img_sdzx/hbtn.png") no-repeat center;
+}
+.nav ul li a{
+	display:block;
+	color:white;
+}
+.nav ul li.onli{
+	background: url("../img_sdzx/cbtn.png") no-repeat center;
+}
+
+
+
+/*footor*/
+.footer{
+	width: 100%;
+	height: 245px;
+	background: #000;
+	min-width: 1000px;
+}
+.footer_cont{
+	background: url(../img_sdzx/cr_fc.png) no-repeat;
+	background-position:center 20px;
+	height: 245px;
+	margin:0 auto;
+	position: relative;
+	width: 800px;
+	overflow: hidden;
+	color:#888;
+	font-size: 12px;
+}
+.footer_cont a{
+	width: 115px;
+	height:50px;
+	background: url(../img_sdzx/jiazhang-fs8.png) no-repeat;
+	position: absolute;
+	right:50px;
+	top: 25px;
+}
+.footer_cont span{
+	display: block;
+	margin:70px 0 0 290px;
+}
+.copyright{
+	height: 140px;
+}
+.copyright p{
+	margin-bottom: 8px;
+}

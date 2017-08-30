@@ -1,0 +1,290 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+
+.main{
+	min-width: 1000px;
+	height: 4955px;
+	overflow: hidden;
+	background: url(../img_sdzxxt/system_bg.jpg) no-repeat top ;
+}
+.con_f{
+	width: 1000px;
+	height: 1015px;
+	margin:0 auto;
+	position: relative;
+}
+.con_f p{
+	font-size: 24px;
+	text-align: center;
+}
+
+/*===========内容部分1楼：大乱斗========= */
+.logo{
+	width: 188px;
+	height: 186px;
+	background: url(../img_sdzxxt/y_logo.png) no-repeat center;
+	position: absolute;
+	top: 0px;
+	left:-150px;
+	animation: 	logo 1.3s;
+	animation-fill-mode: forwards;
+}
+.ico{
+	width: 73px;
+	height: 64px;
+	background: url(../img_sdzxxt/y_logo2.png) no-repeat center;
+	position: absolute;
+	top: 60px;
+	right:-50px;
+	animation: 	ico 1.3s;
+	animation-fill-mode: forwards;
+}
+.jiti{
+	width: 1903px;
+	height: 1004px;
+	background: url(../img_sdzxxt/y_01jt.png) no-repeat center;
+	position: absolute;
+	top: 0px;
+	left:-440px;
+	animation: 	jiti 1.8s;
+	animation-fill-mode: forwards;
+}
+.daluandou{
+	width: 1146px;
+	height: 189px;
+	background: url(../img_sdzxxt/y_01wz.png) no-repeat center;
+	position: absolute;
+	bottom: 0px;
+	left:-50px;
+	animation: 	daluandou 2.2s;
+	animation-fill-mode: forwards;
+}
+/*===========内容部分2楼：机师系统========= */
+.con2f_pic{
+	width: 1000px;
+	height: 500px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.con2f_pic .c2f_img{
+	width: 199px;
+	height: 500px;
+	float: left;
+}
+#img_2a{
+	background: url(../img_sdzxxt/y_mm01.png) no-repeat center;
+	animation: 	img_a 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+
+}
+#img_2b{
+	background: url(../img_sdzxxt/y_mm02.png) no-repeat center;
+	animation: 	img_b 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+#img_2c{
+	background: url(../img_sdzxxt/y_mm03.png) no-repeat center;
+	animation: 	img_c 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+#img_2d{
+	background: url(../img_sdzxxt/y_mm04.png) no-repeat center;
+	animation: 	img_d 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+#img_2e{
+	background: url(../img_sdzxxt/y_mm05.png) no-repeat center;
+	animation: 	img_e 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+.con2f_pic .con2f_text{
+	width: 1000px;
+	height: 500px;
+}
+.title{
+	font-size: 56px;
+	color:white;
+}
+.con2f_text h1{
+	margin-left: 80px;
+	animation: 	conf_title 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+
+}
+.con2f_text p{
+	margin-top: 30px;
+	font-size: 24px;
+	text-align: center;
+	animation: 	twof_p 2s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+.con2f_text a{
+	width: 299px;
+	height: 70px;
+	background: url(../img_sdzxxt/y_btn.png) no-repeat center;
+	position: absolute;
+	bottom: 140px;
+	left: 50%;
+	margin-left: -150px;
+	animation: 	conf_js 2s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+
+/*===========内容部分3楼：机体碰撞========= */
+.con3f_pic{
+	width: 1000px;
+	height: 587px;
+	margin:0 auto;
+}
+.c3f_img{
+	width: 626px;
+	height: 587px;
+	position: absolute;
+}
+#img_3a{
+	top:70px;
+	left: -15px;
+	background: url(../img_sdzxxt/y_jtl.png) no-repeat center;
+	z-index: 1;
+	animation: 	ccf_xaz 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+#img_3b{
+	top:25px;
+	right: -15px;
+	background: url(../img_sdzxxt/y_jtr.png) no-repeat center;
+	animation: 	ccf_djs 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+.con3f_text{
+	width: 1000px;
+	height: 400px;
+
+}
+.con3f_text .con3f_Lh1 {
+	margin-left: 180px;
+	animation: 	ccf_Lh 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+.con3f_text .con3f_Rh1 {
+	text-align: center;
+	animation: 	ccf_Rh 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+.con3f_text p{
+	margin-top:20px;
+	animation: 	ccf_text 2s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+
+
+
+/*===========内容部分4楼：夏亚与阿姆罗========= */
+.c4f_img{
+	width: 750px;
+	height: 877px;
+	position: absolute;
+	top: 0px;
+
+}
+.c4f_img2{
+	width: 353px;
+	height: 101px;
+	position: absolute;
+	top: 40%;
+	left: 33%;
+	z-index:1;
+}
+.c4f_text{
+	text-align: center;
+	position: absolute;
+	top:55%;
+	left: 50%;
+	margin-left: -230px;
+	animation: 	cdf_text 2s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+
+.c4f_text p{
+	margin-top: 15px;
+}
+#img_4a{
+	top:55px;
+	left:-350px;
+	background: url(../img_sdzxxt/y_xy.png) no-repeat center;
+	animation: xiaya 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+#img_4b{
+	background: url(../img_sdzxxt/y_vs.png) no-repeat center;
+	animation: vs 1.2s ease-in;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+#img_4c{
+	top:32px;
+	right:-200px;
+	background: url(../img_sdzxxt/y_aml.png) no-repeat center;
+	animation: amuluo 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+
+}
+/*===========内容部分5楼，巴巴托斯========= */
+.content_5f{
+	height: 700px;
+	text-align: center;
+}
+/*5f图片+文字部分，用作控制动画*/
+.c5f_top{
+	animation:cef_top 1.5s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}
+
+/*5f图片部分*/
+.content_5f .c5f_img{
+	width: 700px;
+	height: 461px;
+	margin:0 auto;
+	margin-top:40px;
+	margin-bottom: 20px;
+	background: url(../img_sdzxxt/y_tx.png) no-repeat center;
+}
+/*5f文字部分*/
+.c5f_text h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.c5f_text p{
+	margin-top:10px;
+}
+/*最新活动*/
+.new_active{
+	display: inline-block;
+	width: 300px;
+	height: 70px;
+	margin-top:40px;
+	background: url(../img_sdzxxt/y_btn-dl-20161114.png) no-repeat center;
+	animation: new_active 1.8s;
+	animation-fill-mode: forwards;
+	animation-play-state:paused;
+}

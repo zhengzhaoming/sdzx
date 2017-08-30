@@ -1,0 +1,104 @@
+.matter{
+	min-width: 1200px;
+	height: 1255px;
+	background: url(../img_sdzxjt/n_bg1.jpg) no-repeat center;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+
+/*main*/
+.main{
+	margin:0 auto;
+	width: 1200px;
+	height: 100%;
+	margin-top: 85px;
+}
+/*title*/
+.title{
+	font-size: 40px;
+	line-height: 90px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.title i{	
+	position: relative;
+	left: -14px;
+}
+
+
+/*jiti*/
+.jt_list{
+	width: 1200px;
+	height: 750px;
+	overflow: hidden;
+	position: relative;
+	top:30px;
+}
+.lunbo_box{
+	width: 1000px;
+	height: 750px;
+	position:relative;
+	overflow: hidden;
+	margin:0 auto;
+}
+.list_pic{
+	width:9000px;
+	height:750px;
+	position:absolute;
+	z-index: 1
+}
+
+.list_pic .list_box{
+	width: 1000px;
+	height: 750px;
+	float:left;
+}
+.list_box li{
+	float: left;
+	width: 225px;
+	height: 328px;
+	margin:15px 12px;
+}
+.list_box li img{
+	width: 225px;
+	height: 328px;
+	transition: 0.5s;
+}
+.list_box li img:hover{
+	-moz-transform:scale(1.1); 
+	-webkit-transform:scale(1.1); 
+	-o-transform:scale(1.1); 
+}
+
+
+#pre{
+	width:70px;
+	height:200px;
+	float:left;
+	position:absolute;
+	top:275px;
+	left:0px;
+	z-index: 2;
+	background:url(../img_sdzxjt/n_btn_left.png) no-repeat center;
+	transition:0.5s;
+	border-radius: 5px;
+}
+#next:hover,#pre:hover{
+	box-shadow: 0 0 10px rgba(34,121,240,0.9);
+}
+#next{
+	width:70px;
+	height:200px;
+	float: left;
+	position:absolute;
+	top:275px;
+	right:0px;
+	z-index: 2;
+	background:url(../img_sdzxjt/n_btn_right.png) no-repeat center;
+	transition:0.5s;
+	border-radius: 5px;
+}
+
+

@@ -1,0 +1,108 @@
+/*动画：1f*/
+@keyframes logo{
+	0%{top:-130px;opacity:0;}
+	100%{top:0px;opacity:1;}
+}
+@keyframes ico{
+	0%{top:-70px;opacity:0;}
+	100%{top:60px;opacity:1;}
+}
+@keyframes jiti{
+	0%,40%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes daluandou{
+	0%,50%{left:-900px;opacity:0;}
+	93%{left:-40px;opacity:1;}
+	100%{left:-50px;opacity:1;}
+}
+
+/*动画：2f*/
+@keyframes img_a{
+	0%{margin-top:-400px;opacity:0;}
+	100%{margin-top:0px;opacity:1;}
+}
+@keyframes img_b{
+	0%,10%{margin-top:-400px;opacity:0;}
+	100%{margin-top:0px;opacity:1;}
+}
+@keyframes img_c{
+	0%,20%{margin-top:-400px;opacity:0;}
+	100%{margin-top:0px;opacity:1;}
+}
+@keyframes img_d{
+	0%,30%{margin-top:-400px;opacity:0;}
+	100%{margin-top:0px;opacity:1;}
+}
+@keyframes img_e{
+	0%,40%{margin-top:-400px;opacity:0;}
+	100%{margin-top:0px;opacity:1;}
+}
+@keyframes conf_title{
+	0%,50%{margin-left: -500px;opacity:0;};
+	100%{margin-left:80px;opacity:1;};
+}
+@keyframes twof_p{
+	0%,70%{margin-top: 50px;opacity:0;};
+	100%{margin-top:30px;opacity:1;};
+}
+@keyframes conf_js{
+	0%,80%{opacity:0;};
+	100%{opacity:1;};
+}
+
+/*动画：3f*/
+@keyframes ccf_xaz{
+	0%{left:-1200px;opacity:0;}
+	100%{left:-15px;opacity:1;}
+}
+@keyframes ccf_djs{
+	0%{right:-1200px;opacity:0;}
+	100%{right:-15px;opacity:1;}
+}
+@keyframes ccf_Lh {
+	0%,30%{margin-left:-1200px;opacity:0;}
+	100%{margin-left:180px;opacity:1;}
+}
+@keyframes ccf_Rh {
+	0%,30%{margin-right:-1500px;opacity:0;}
+	100%{margin-right:0px;opacity:1;}
+}
+@keyframes ccf_text {
+	0%,70%{margin-top:30px;opacity:0;}
+	100%{margin-top:20px;opacity:1;}
+}
+/*动画：4f*/
+
+@keyframes xiaya {
+	0%{left:-1550px;opacity:0;}
+	100%{left:-350px;opacity:1;}
+}
+@keyframes vs{
+	0%,40%{top:25%;transform:scale(0.2);opacity:0;}
+	60%{top:20%;transform:scale(0.3);opacity:0.7;}
+	90%{top:42%;transform:scale(0.9);opacity:0.9;}
+	100%{top:40%;transform:scale(1);opacity:1;}
+}
+@keyframes amuluo{
+	0%{right:-1400px;opacity:0;}
+	100%{right:-200px;opacity:1;}
+}
+/*动画：4f文字*/
+@keyframes cdf_text{
+	0%,50%{opacity:0;}
+	100%{opacity:1;}
+}
+
+
+
+/*动画：5f图片+文字*/
+@keyframes cef_top{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+/*动画：5f最新活动*/
+@keyframes new_active{
+	0%,50%{margin-top:80px;opacity:0;}
+	100%{margin-top:40px;opacity:1;}
+}

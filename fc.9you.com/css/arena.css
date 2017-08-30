@@ -1,0 +1,104 @@
+/*主内容区域*/
+p{
+	font-size:
+}
+.main{
+	min-width:1000px;
+	height:3800px;
+	margin:0 auto;
+	overflow:hidden;
+	background:url(../img_arena/bg.jpg) no-repeat center;
+}
+/*logo部分*/
+.main .logo{
+	width:648px;
+	height:348px;
+	margin:0 auto;
+	margin-top:240px;
+	background:url(../img_arena/logo.png) no-repeat center;
+}
+/*系统简介*/
+.main .intro{
+	width:1000px;
+	height:60px;
+	margin:0 auto;
+	margin-top:35px;
+	text-align:center;
+
+}
+/*1f:军衔制度*/
+.main .cont_1f{
+	width:1000px;
+	height:620px;
+	margin:0 auto;
+	overflow:hidden;
+	border:1px solid red;
+}
+/*军衔轮播图*/
+.cont_1f .ranks_list{
+	display:block;
+	width:100%;
+	height:112px;
+	margin-top:160px;
+	position:relative;
+	overflow:hidden;
+	background:url(../img_arena/xz_bg.png) no-repeat center;
+}
+/*轮播图图片视野*/
+.lunbo_box{
+	width: 852px;
+	height: 75px;
+	margin:0 auto;
+	margin-top:18px;
+	overflow: hidden;
+}
+/*轮播图图片集合*/
+.list_pic{
+	width:2556px;
+	height:75px;
+	position:relative;
+}
+.list_pic li{
+	width: 852px;
+	height: 75px;
+	float: left;
+}
+.lunbo_btn{
+	width:25px;
+	height:45px;
+	position:absolute;
+	top:35px;
+	z-index:2;
+	transition:0.5s;
+}
+#pre{
+	left:20px;
+	opacity:0;
+	background:url(../img_arena/arrow_left.png) no-repeat center;	
+}
+#next{
+	right:20px;
+	background:url(../img_arena/arrow_right.png) no-repeat center;
+}
+
+/*军衔制度介绍*/
+.ranks_introduce{
+	width:850px;
+	margin:0 auto;
+	margin-top:50px;
+	line-height:20px;
+	text-align:justify;
+}
+.main .cont_2f{
+	width:1000px;
+	height:430px;
+	border:1px solid red;
+	margin:0 auto;
+}
+.cont_2f p{
+	text-align:center;
+	line-height:24px;
+}
+.cont_2f p strong{
+	color:#ffcc00;
+}

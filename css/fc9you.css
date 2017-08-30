@@ -1,0 +1,504 @@
+.main{
+	background: url(../img_fc/fc_bg.jpg) no-repeat center 0px;
+	min-width: 1470px;
+	height:1100px;
+	margin:0 auto;
+	position: relative;
+}
+.main .logo{
+    width: 317px;
+    height: 187px;
+    background: url(../img_fc/gdf_logo2.png) no-repeat center;
+    background-size:90%;
+    position: absolute;
+    left: 242px;
+    top: -15px;
+    cursor: pointer;
+    transition:0.3s;
+    opacity:0.9;
+}
+.main .logo:hover{
+
+	background: url(../img_fc/gdf_logo2.png) no-repeat center;
+	background-size:100%;
+	left: 242px;
+    top: -17px;
+    opacity:1;
+}
+.right_btn1{
+	width: 270px;
+    height: 216px;
+    background: url(../img_fc/xuanfubg_08.png) no-repeat;
+    position: absolute;
+    /* left: 1420px; */
+    left: 50%;
+    margin-left: 460px;
+    top: 481px;
+    z-index: 9;
+    cursor: pointer;
+}
+.right_btn1 .xuanfuT{
+	position: absolute;
+    left: 22px;
+    top: 23px;
+}
+.right_btn1 .xuanfuB{
+	position: absolute;
+    left: 22px;
+    top: 120px;
+}
+.right_btn2{
+	position: absolute;
+    background: url("../img_fc/c_btn01.png") no-repeat center;
+    width: 282px;
+    height: 152px;
+    left: 50%;
+    margin-left: 460px;
+    top: 732px;
+}
+.right_btn3{
+	position: absolute;
+    background: url("../img_fc/c_btn02.png") no-repeat center;
+    width: 282px;
+    height: 152px;
+    left: 50%;
+    margin-left: 460px;
+    top: 890px;
+}
+
+
+.main .video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.75);
+	z-index: 10;
+}
+.video .black{
+	width: 100%;
+	height: 100%;
+}
+
+.video video{
+	position: relative;
+	z-index: 12px;
+}
+.video .again{
+	width: 138px;
+	height: 148px;
+	margin-left:-69px;
+	background: url(../img/play.png) no-repeat;
+	position: fixed;
+	z-index: 21;
+	top:250px;
+}
+#audio{
+	width: 720px;
+	height: 480px;
+	position: fixed;
+	top:70px;
+	left: 50%;
+	margin-left: -360px;
+	z-index: 20px;
+}
+.main .content{
+	width: 800px;
+	height:100%;
+	margin:0 auto;
+	position: relative;
+}
+.content_top{
+    height:480px;
+}
+.zhuce_lg{
+    width: 136px;
+    height: 60px;
+    background: url(../img_fc/zhuce_12.png) no-repeat;
+    position: absolute;
+    left: -5px;
+    top: -42px;
+}
+.huodong_lg{
+    width: 142px;
+    height: 60px;
+    background: url(../img_fc/huodong_12.png) no-repeat;
+    position: absolute;
+    left: 205px;
+    top: -42px;
+}
+.zixun_lg{
+    width: 143px;
+    height: 60px;
+    background: url(../img_fc/zhixun_12.png) no-repeat;
+    position: absolute;
+    left: 660px;
+    top: -42px;
+}
+.content .play{
+	width: 40px;
+    height: 46px;
+    background: url(../img_fc/aduio_10.png) no-repeat;
+    position: absolute;
+    left: 626px;
+    top: 175px;
+}
+.content_bottom{
+	width: 855px;
+    height: 570px;
+    background: black;
+    position: relative;
+    left: -38px;
+    padding:20px 10px;
+}
+.content_bottom:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.content_bottom .register{
+	width: 199px;
+    height: 340px;
+    float:left;
+}
+.reg_nav{
+	width: 66px;
+    height: 38px;
+    float: left;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.reg_nav:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.reg_bg{
+    width: 198px;
+    height: 295px;
+    background: url(../img_fc/boxlBG_32.png) no-repeat;
+    background-size:cover;
+    position: absolute;
+    left: 10px;
+    top: 61px;
+    border-radius:0 0 3px 3px;
+}
+.textbox{
+    width: 187px;
+    float: left;
+    box-sizing: border-box;
+    background: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin:4px 5px;
+    border-radius:3px;
+}
+.textbox input{
+    float: left;
+    width: 147px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.textbox i{
+    width: 30px;
+    height: 30px;
+    float: left;
+    display: block;
+}
+.textbox:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#phone_reg:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#phone_reg .auth_box{
+    width: 220px;
+    height: 30px;
+    float: left;
+    margin-bottom:8px;
+}
+
+.auth_box .auth{
+    width: 122px;
+}
+.auth input{
+    width: 87px;
+}
+
+.auth_box .auth_but{
+    float: left;
+    width: 60px;
+    height: 30px;
+    font-size:12px;
+    margin-left: 10px;
+    line-height: 30px;
+    background: #4750cf;
+    color: #d7e6ff;
+    text-align: center;
+    margin:5px 10px 0 0;
+}
+.phone i{
+    background: url(../img/phone.png) no-repeat center center;
+}
+.auth i{
+    background: url(../img/yanzheng.png) no-repeat center center;
+}
+.password i{
+    background: url(../img/lock.png) no-repeat center center;
+}
+.username i{
+    background: url(../img/person.png) no-repeat center center;
+}
+.idcar i{
+    background: url(../img/shenfen.png) no-repeat center center;
+}
+.jiuyou{
+    
+}
+.jiuyou i{
+    background: url(../img/pc_img.png) no-repeat center center;
+}
+.sign{
+    width: 230px;
+    height: 83px;
+    background: url(../img/zhucebtn.png);
+    margin-left: -5px;
+}
+
+.ZC{
+    width: 187px;
+    height: 35px;
+    display:block;
+    background:url(../img_fc/zhucedianji_37.png) no-repeat 0px -6px;
+    background-size:cover;
+    border-radius:3px;
+    margin:4px 5px;
+    transition: 0.5s;
+}
+.ZC:hover,.XZ:hover{
+    box-shadow:0 0 5px 5px #4C659B;
+}
+
+.XZ{
+    width: 187px;
+    height: 35px;
+    display:block;
+    background:url(../img_fc/xiazai_42.png) no-repeat 0px -6px;
+    background-size:cover;
+    border-radius:3px;
+    margin:6px 5px;
+    transition: 0.5s;
+}
+.more{
+    font-size:12px;
+    color:#00f6ff;
+    float:right;
+    margin-right:8px;
+}
+.more:hover{
+    text-decoration:underline;
+}
+#reg_nav1{
+    background:url('../img_fc/nav1.png');
+}
+#reg_nav2{
+    background:url('../img_fc/nav2_29.png');
+}
+#reg_nav3{
+    background:url('../img_fc/nav3_30.png');
+}
+#hide_quick{
+    height:190px;
+}
+#login{
+    height:190px;
+}
+.login_num{
+    margin-top:20%;
+}
+.login_pw{
+    margin-top:20%;
+}
+.content_bottom .banner{
+	width: 420px;
+    height: 340px;
+    overflow: hidden;
+   	float:left;
+   	margin:0 10px;
+}
+.banner .banner_a{
+	display:block;
+	width: 840px;
+    height: 250px;
+    position: relative;
+    animation: run 10s linear infinite;
+}
+@keyframes run{
+    0%,47%{
+        left: 0px;
+    }
+    50%,97%{
+        left: -420px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.banner_a img{
+	width: 420px;
+    height: 250px;
+    display: block;
+    float: left;
+}
+.banner .banner_b{
+	display:block;
+	width: 207px;
+    height: 80px;
+    margin-top:5px;
+    float:left;
+    transition: 0.4s;
+}
+.banner_b img{
+	width: 207px;
+    height: 80px;
+    border-radius:2px;
+
+}
+.banner_b:hover{
+	box-shadow:0 0 8px 5px #1D2440;
+	border-radius:2px;
+}
+
+.content_bottom .gift{
+	width: 199px;
+    height: 340px;
+    float:left;
+}
+.gift .LB{
+    position: absolute;
+    left: 660px;
+    top: 23px;
+}
+.gift .GW{
+    position: absolute;
+    left: 660px;
+    top: 119px;
+}
+.gift .Hot{
+    position: absolute;
+    left: 660px;
+    top: 216px;
+}
+.gift .kf{
+    position: absolute;
+    top: 315px;
+    right: 27px;
+}
+.text_kf{
+    color: white;
+    font-size: 12px;
+}
+.text_rexian{
+       color: #00aeff;
+    font-size: 12px;
+}
+.text_rexian img{
+    display: inline-block;
+    float: left;
+    margin-right:5px;
+}
+
+.foot{
+    display:block;
+    position:absolute;
+    width:830px;
+    height:179px;
+    top:850px;
+    left:-20px;
+}
+.foot:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#dot_bottom{
+    width: 100%;
+    height: 45px;
+    padding: 0 50px; 
+    box-sizing: border-box;
+    position: absolute;
+    bottom:-20px;
+    left: 35%;
+    z-index: 10;
+}
+#dot_bottom span{
+    width: 10px;
+    height: 10px;
+    background: rgba(152,149,191,0.9);
+    display: block;
+    cursor: pointer;
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#dot_bottom .sub{
+     background-color:#F9F7DD;
+}
+#lunbo_B{
+    width: 840px;
+    height: 179px;
+    margin-left: -10px;  
+}
+#lunbo_B img,#lunbo_B a{
+    width:840px; height: 179px; 
+    position: absolute;
+    display: block;
+}
+.move{
+    color: #01adff;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    z-index: 11;
+    font-size: 15px;
+}
+.move:hover{
+    text-decoration: underline;
+}
+
+footer{
+    min-width:1000px;
+    background:#000;
+}
+footer .bottom{
+    width:1000px;
+    padding: 20px 0;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+
+.bottom h4{
+    position:relative;
+    top:-35px;
+    left:285px;
+    font-size:12px;
+    color: #888;
+}
+.bottom img{
+    margin-bottom: 30px;
+}
+.bottom p{
+    font-size: 12px;
+    color: #888;
+    line-height: 20px;
+    text-align: left;
+    margin-left:70px;
+}

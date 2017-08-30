@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>注册登录</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<style>
+		.box{
+			min-width:1000px;
+			height:750px;
+			background:url(img_public/fc_bg.jpg) no-repeat center top;
+			overflow:hidden;
+		}
+		.shade{
+			min-width:1000px;
+			height:750px;
+			background:rgba(0,0,0,0.5);
+			/*position:relative;*/
+		}
+		.register{
+			width:435px;
+			height:400px;
+			margin:0 auto;
+			background:url(img_public/tanbg.png) no-repeat center;
+			position:fixed;
+			top:150px;
+			left:50%;
+			margin-left:-217px;
+		}
+		.register i{
+			display:block;
+			width:33px;
+			height:33px;
+			position:absolute;
+			top:13px;
+			right:1px;
+			opacity:0.2;
+			background:url(img_public/close.png) no-repeat center;
+		}
+		.register .title_box{
+			width:320px;
+			height:45px;
+			margin:0 auto;
+			margin-top:35px;
+		}
+		.title_box .title{
+			width:330px;
+			height:45px;
+		}
+		.title li{
+			width:100px;
+			height:45px;
+			line-height:45px;
+			float:left;
+			margin-right:10px;
+			font-size:16px;
+			color:#6075a3;
+			text-align:center;
+			cursor: pointer;
+		}
+		.title>li:hover{
+			color:#23ffff;
+			border-bottom:2px solid #23ffff;
+		}
+		.title .onbtn{
+			color:#23ffff;
+			border-bottom:2px solid #23ffff;
+		}
+		.register .re_lg_box{
+			width:435px;
+			height:270px;
+			margin-top:35px;
+			border:1px solid red;
+		}
+		.reg_Phone{
+			width:345px;
+			margin:0 auto;
+			border:1px solid yellow;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="shade">
+			<div class="register">
+				<i class="hand"></i>
+				<div class="title_box">
+					<ul class="title">
+						<li>手机注册</li>
+						<li>快速注册</li>
+						<li class="onbtn">用户登录</li>
+					</ul>
+				</div>
+				<div class="re_lg_box">
+					<ul class="reg_Phone">
+						<li>
+							<span>久游通行证</span>
+							<input type="text">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+</script>
+</html>
